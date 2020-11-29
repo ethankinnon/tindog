@@ -1,0 +1,198 @@
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+
+  }
+
+
+/* HEADINGS */
+
+.big-heading{
+  font-weight:900;
+  font-size:3.5rem;
+  line-height: 1.5;
+  color:white;
+  text-align:left;
+
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+
+}
+
+/* SECTIONS */
+
+.colored{
+  background-color: #FF4c68;
+  color:#fff;
+}
+
+.white{
+  background-color:#fff;
+  color:black;
+}
+
+/* NAV BAR */
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:2.5rem;
+  font-weight:700;}
+
+.nav-item{
+  padding:0 14px 0 14px;
+
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* TITLE SECTION */
+
+
+
+#title .container-fluid{
+  padding:2% 15% 7%;
+}
+
+#features{
+  position:relative;
+}
+
+
+/* TITLE IMAGE */
+
+.title-image{
+  width:60%;
+  transform:rotate(25deg) ;
+  position:absolute;
+  right:30%;
+}
+
+
+
+
+
+
+/* FEATURE  */
+.feature-image{
+  font-size:4.5rem;
+  color:#ef8172;
+  padding-bottom:1rem;
+}
+
+.features-row{
+
+  padding:5%;
+}
+.feature-h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+}
+
+.feature-box{
+  padding:5%;
+}
+
+.feature-p{
+  color:#8f8f8f;
+}
+
+.feature-image:hover{
+  color:#ff4c68;
+}
+
+/* TESTIMONIAL SECTION */
+
+
+
+
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.testimonial-text{
+  font-size:3rem;
+  line-height: 1.5;
+}
+
+  /* PRESS SECTION */
+
+#press{
+  padding:3%;
+}
+
+.press-image{
+  width:15%;
+  margin: 20px 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+  padding:100px;
+
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+
+
+/* MEDIA QUERYS */
+
+@media only screen and (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform:rotate(0);
+  }
+#title{
+}
+}
+
+/* CALL TO ACTION */
+
+
+
+
+
+/* FOOTER */
+
+.copywrite{
+  margin-top: 20px;
+}
+
+
+
+.icon-links{
+  margin:10px 20px;
+}
